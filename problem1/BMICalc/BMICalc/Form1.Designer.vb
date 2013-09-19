@@ -36,7 +36,7 @@ Partial Class Form1
         'txtWeight
         '
         Me.txtWeight.Location = New System.Drawing.Point(83, 22)
-        Me.txtWeight.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtWeight.Margin = New System.Windows.Forms.Padding(2)
         Me.txtWeight.Name = "txtWeight"
         Me.txtWeight.Size = New System.Drawing.Size(88, 20)
         Me.txtWeight.TabIndex = 0
@@ -64,7 +64,7 @@ Partial Class Form1
         'txtHeight
         '
         Me.txtHeight.Location = New System.Drawing.Point(83, 43)
-        Me.txtHeight.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtHeight.Margin = New System.Windows.Forms.Padding(2)
         Me.txtHeight.Name = "txtHeight"
         Me.txtHeight.Size = New System.Drawing.Size(88, 20)
         Me.txtHeight.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class Form1
         'btnCalcBMI
         '
         Me.btnCalcBMI.Location = New System.Drawing.Point(83, 77)
-        Me.btnCalcBMI.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCalcBMI.Margin = New System.Windows.Forms.Padding(2)
         Me.btnCalcBMI.Name = "btnCalcBMI"
         Me.btnCalcBMI.Size = New System.Drawing.Size(87, 21)
         Me.btnCalcBMI.TabIndex = 4
@@ -92,7 +92,7 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(83, 118)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(88, 20)
         Me.TextBox1.TabIndex = 5
@@ -131,7 +131,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtHeight)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtWeight)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "BMI Calculator"
         Me.ResumeLayout(False)
